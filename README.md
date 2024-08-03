@@ -54,4 +54,4 @@ This project is licensed under the terms of the MIT license.
 
 ## Project repository:
 
-https://github.com/Phranson/HappyTenderTouch
+https://github.com/Phranson/HTT24-7
