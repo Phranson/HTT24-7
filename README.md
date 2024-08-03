@@ -52,6 +52,6 @@ mysql -u <mysql_username> -p < setup/dummyData.sql
 License
 This project is licensed under the terms of the MIT license.
 
-## Project private repository:
+## Project repository:
 
 https://github.com/Phranson/HappyTenderTouch
