@@ -1,0 +1,101 @@
+@import url(./globalColors.css);
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: var(--backgroundColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+a:hover {
+  color: var(--accentColor);
+}
+.container {
+  width: 80%;
+  max-width: 600px;
+}
+
+.logo img {
+  max-width: 120px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.chalkboard {
+  background-color: var(--primary_color);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.message {
+  font-size: 24px;
+  animation: writing 5s steps(30) infinite;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid var(--white);
+}
+
+.try-home a {
+  color: var(--secondaryColor);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@keyframes writing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .chalkboard {
+    padding: 20px;
+  }
+
+  .message {
+    font-size: 20px;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  .chalkboard {
+    padding: 15px;
+  }
+
+  .message {
+    font-size: 18px;
+  }
+
+  .logo img {
+    max-width: 80px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .message {
+    font-size: 16px;
+  }
+
+  .logo img {
+    max-width: 60px;
+  }
+}

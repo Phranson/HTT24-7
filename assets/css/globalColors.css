@@ -1,0 +1,22 @@
+:root {
+  --primary_color: #aa1111;
+  --primary_colorHover: #9c3030;
+  --primary_colorHalfTransparency: rgba(170, 17, 17, 0.5);
+  --secondaryColor: #34656d;
+  --secondaryColorHover: #468a93;
+  --accentColor: #559cad;
+  --darkGrey: #333333;
+  --mediumGrey: #888888;
+  --lightGrey: #dddddd;
+  --lightergrey: #e5e5e5;
+  --backgroundHover: rgba(221, 221, 221, 0.55);
+  --white: #f1f1f1;
+  --black: #1f1f1f;
+  --success: #4bb543;
+  --error: #ff1f1f;
+  --backgroundColor: #f0f0f0;
+  --textColor: #1c242a;
+  --headingColor: #36454f;
+  --templateGrey: #3c4043;
+  --processed: blue;
+}

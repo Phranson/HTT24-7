@@ -1,0 +1,28 @@
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+}
+
+.overflowText h3:hover {
+  display: inline-block;
+  animation: marquee 5s linear infinite;
+}
+h3 {
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
